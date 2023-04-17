@@ -8,6 +8,4 @@ on:
 jobs:
     assign:
         uses: flex-is/reusable-workflows/.github/workflows/auto-assign.yaml@main
-        with:
-            config_file: .github/auto-assign-local.yaml
         secrets: inherit
