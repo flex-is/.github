@@ -1,9 +1,9 @@
 name: Auto Assign
 on:
     issues:
-        types: [opened]
+        types: [opened, edited, labeled, unlabeled]
     pull_request:
-        types: [opened]
+        types: [opened, edited, labeled, unlabeled]
 
 jobs:
     assign:
