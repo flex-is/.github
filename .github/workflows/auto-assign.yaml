@@ -7,9 +7,7 @@ on:
 
 jobs:
     assign:
-        runs-on: ubuntu-latest
-        steps:
-            - uses: wow-actions/auto-assign@v1
-              with:
-                GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-                CONFIG_FILE: .github/auto-assign.yaml
+        uses: flex-is/reusable-workflows/.github/workflows/auto-assign.yaml@main
+        with:
+            config_file: .github/auto-assign-local.yaml
+        secrets: inherit
