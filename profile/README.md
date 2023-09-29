@@ -1,4 +1,4 @@
-# FLEX-IS :us:
+# FLEX-IS :uk:
 
 -   [About us](https://www.flexis.sk/en/)
 -   [Our enterprise solution](https://www.flexis.sk/en/flex-g4/)
